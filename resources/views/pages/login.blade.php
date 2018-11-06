@@ -55,8 +55,9 @@
 						<a href="index.html"><i class="halflings-icon home"></i></a>
 					</div>
 					<h2>Login to your account</h2>
-					<form class="form-horizontal" action="index.html" method="post">
+					<form class="form-horizontal" action="{{URL('/admin/dashboard')}}" method="post">
 						<fieldset>
+						{{csrf_field()}}
 							
 							<div class="input-prepend" title="Username">
 								<span class="add-on"><i class="halflings-icon user"></i></span>
