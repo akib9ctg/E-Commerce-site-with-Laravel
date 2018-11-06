@@ -381,7 +381,7 @@
     </header>
 
     <!-- Slide1 -->
-    @yield('content')
+    @yield('content');
 
 
     <!-- Blog -->
